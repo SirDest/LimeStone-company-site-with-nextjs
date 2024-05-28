@@ -1,10 +1,11 @@
 import Header from "./components/Header/Header";
+import Landing from "./components/Landing/Landing";
 
 export default function Home() {
   return (
-    <div className='bg-blue-700 h-screen w-full'>
+    <div>
       <Header />
-      <div className='p-[100px]'>Home Page</div>
+      <Landing />
     </div>
   );
 }

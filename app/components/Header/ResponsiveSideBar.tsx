@@ -33,7 +33,7 @@ const ResponsiveSideBar: React.FC<MyProps> = ({ setSideBar }) => {
 
   return (
     <div className='h-[500px] w-[300px] bg-white flex flex-col text-left py-3 px-5'>
-      <div className='flex items-end justify-end text-right w-full'>
+      <div className='flex items-end justify-end text-right w-full text-black'>
         <button onClick={removeSideBar}>
           <IoCloseOutline size={25} />
         </button>
