@@ -38,7 +38,7 @@ const ResponsiveSideBar: React.FC<MyProps> = ({ setSideBar }) => {
           <IoCloseOutline size={25} />
         </button>
       </div>
-      <div className='flex flex-col gap-3 py-2'>
+      <div className='flex flex-col gap-3 py-2 text-black'>
         {headItems.map(({ name, path }) => (
           <a className={generateClassName(navBarItems)} key={path} href={path}>
             {name}
