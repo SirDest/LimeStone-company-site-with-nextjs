@@ -5,7 +5,7 @@ import Button from "../Button";
 const Landing = () => {
   return (
     <div
-      className='w-full min-h-[590px] h-screen py-[40px] px-[20px] lg:p-[80px] flex lg:flex-row flex-col justify-between'
+      className='w-full min-h-[610px] h-screen py-[40px] px-[20px] lg:p-[80px] flex lg:flex-row flex-col justify-between'
       style={{
         background: `rgba(0,0,0,0.7) url(${bgImage.src})`,
         backgroundBlendMode: "darken",
@@ -27,7 +27,7 @@ const Landing = () => {
           Contact Us
         </Button>
       </div>
-      <div className='lg:w-1/3 w-full h-full hidden md:flex flex-row lg:flex-col py-1 px-16 text-white'>
+      <div className='lg:w-1/3 w-full h-full justify-center lg:justify-normal hidden md:flex flex-row lg:flex-col py-1 px-16 text-white'>
         <div className='lg:w-full w-fit h-fit flex flex-col gap-2 lg:border-b border-[#AF8F6F] lg:px-2 py-5'>
           <h1 className='text-[22px] font-bold'>Hours</h1>
           <div className='flex flex-col gap-1 w-fit'>
@@ -54,7 +54,7 @@ const Landing = () => {
               255 Village road. Trenches
             </p>
             <p className='flex justify-between text-[15px]'>
-              234 (0) 812 345 6789
+              +234 (0) 812 345 6789
             </p>
           </div>
         </div>

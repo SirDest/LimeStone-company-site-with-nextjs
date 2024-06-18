@@ -4,7 +4,7 @@ import FaqPage from "./FaqPage";
 
 const Faq = () => {
   return (
-    <div className='bg-yellow-600'>
+    <div className='bg-yellow-600 h-screen flex'>
       <Header />
       <div className='p-[100px]'>
         <FaqPage />

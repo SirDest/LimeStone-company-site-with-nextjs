@@ -38,10 +38,12 @@ const Header = () => {
             )}
           </li>
         ))}
+      </ul>
+      <div className='hidden md:flex'>
         <Button href='/contactus' type='button' disabled={false}>
           Get in touch <MdOutlineArrowForward size={15} />
         </Button>
-      </ul>
+      </div>
 
       <button className='md:hidden block'>
         <IoMenuOutline size={25} onClick={handleSideBar} />
