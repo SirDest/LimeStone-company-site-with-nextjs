@@ -4,9 +4,9 @@ import Header from "../components/Header/Header";
 
 const About = () => {
   return (
-    <div className='bg-purple-500 h-screen'>
+    <div className='h-screen'>
       <Header />
-      <div className='p-[100px]'>
+      <div>
         <AboutPage />
       </div>
     </div>

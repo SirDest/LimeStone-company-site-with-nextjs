@@ -16,7 +16,7 @@ const Header = () => {
   // text-[#293241]
   // [#AF8F6F]
   return (
-    <div className='w-full fixed text-white test-[20px] px-6 py-2 h-fit flex justify-between text-center items-center'>
+    <div className='w-full fixed text-black bg-white test-[20px] px-6 py-2 h-fit flex justify-between text-center items-center'>
       <a href='/'>LOGO</a>
       <ul className='hidden md:flex flex-row items-center gap-5'>
         {headItems.map(({ name, path }) => (
