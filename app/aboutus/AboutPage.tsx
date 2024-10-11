@@ -20,16 +20,13 @@ const AboutPage = () => {
           aspernatur. Unde aspernatur ad, facilis illo cumque repellendus minima
           eum obcaecati aut velit praesentium atque est magni voluptatibus
           mollitia nostrum vel suscipit perferendis. Placeat amet deleniti
-          deserunt tenetur sit fugit omnis explicabo possimus hic non
-          laudantium, sint nam aliquid voluptates modi doloribus repudiandae
-          officia optio sed, maiores adipisci vero? Omnis earum vero dolor
+          deserunt tenetur sit fugit omnis explicabo
         </p>
         <p className='text-[15px] md:text-[18px] font-light indent-3 mt-4'>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
           aspernatur. Unde aspernatur ad, facilis illo cumque repellendus minima
           eum obcaecati aut velit praesentium atque est magni voluptatibus
-          mollitia nostrum vel suscipit perferendis. Placeat amet deleniti
-          deserunt tenetur sit fugit omnis explicabo p
+          mollitia nostrum vel suscipit perferend
         </p>
       </div>
     </div>
